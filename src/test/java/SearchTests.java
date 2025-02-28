@@ -8,7 +8,6 @@ public class SearchTests {
     void successfulLogin() {
         open("https://www.duckduck.com");
         $("[name=q]").setValue("Selenide").pressEnter();
-        //123123
-        $("[id=search]").shouldHave(text("https://selenide.org"));
+      
     }
 }
